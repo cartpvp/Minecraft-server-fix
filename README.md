@@ -16,6 +16,6 @@
 
 5. Под строкой из **4 пункта** вам нужно скопировать и вставить это:
 ``--filter-tcp=<здесь ваши порты> --ipset-exclude="%LISTS%ipset-exclude.txt" --dpi-desync-any-protocol=1 --dpi-desync-cutoff=n5 --dpi-desync=multisplit --dpi-desync-split-seqovl=582 --dpi-desync-split-pos=1 --dpi-desync-split-seqovl-pattern="%BIN%tls_clienthello_4pda_to.bin" --new ^``
-В ``--filter-tcp=`` вы также вписываете ваш порт или порты через запятую из пункта 5.
+В ``--filter-tcp=`` вы также вписываете ваш порт или порты через запятую из пункта 4.
 
 6. Сохраняете файл и запускаете ALT.
